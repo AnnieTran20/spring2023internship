@@ -3,8 +3,10 @@
 }
 
 .App-logo {
-  height: 40vmin;
+  height: 13vmin;
   pointer-events: none;
+  margin-left: -1em;
+  margin-top: -1.75em;
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -28,6 +30,48 @@
   color: #61dafb;
 }
 
+/* Nav Bar */
+.sign-in {
+  margin-left: 3em;
+  margin-top: 1em;
+}
+.Search-logo {
+  height: 5vmin;
+  margin-left: 2em;
+  margin-top: .75em;
+}
+nav {
+  height: 40px;
+  display: flex;
+  padding: 20px 36px;
+  box-shadow: 0px 2.98256px 7.4564px rgba(0, 0, 0, 0.1);
+
+}
+
+nav a{
+  color: black;
+  text-decoration: none;
+}
+
+nav a h3 {
+  margin-left: 1em;
+}
+/* Poster */
+.Poster {
+  margin: 0 17% 0 17%;
+}
+
+.Poster-row1 {
+  display: flex;
+}
+.Poster ul {
+  list-style-type: none;
+  display: flex;
+  
+}
+.Poster ul li {
+  margin-left: .25em;
+}
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
