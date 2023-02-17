@@ -57,16 +57,52 @@ nav a h3 {
   margin-left: 1em;
 }
 /* Poster */
-.Poster {
-  margin: 0 17% 0 17%;
+.Slogan {
+  margin-left: -20em;
+}
+.Poster a {
+  color: white;
+  text-decoration: none;
+}
+.Poster select {
+  width: 250px;
+  height: 33px;
+  /* margin-left: -10px; */
+  margin-left: 10px;
 }
 
+.ZipCode {
+  height: 28px;
+  margin-left: 10px;
+}
+
+.Searchbar {
+  height: 33px; 
+  margin-left: 10px;
+}
+.Poster {
+  margin: 0 17% 0 17%;
+  background-image: url("background.avif");
+  background-size: cover;  
+  /* background-repeat:repeat-y;
+  margin-left: 2em;
+  width: 19em;
+  display: block;
+  min-width: 100px */
+  height: 400px;
+  color: white;
+}
+
+.Poster-row2 {
+  display: flex;
+}
 .Poster-row1 {
   display: flex;
 }
 .Poster ul {
   list-style-type: none;
   display: flex;
+  margin-top: 35px;
   
 }
 .Poster ul li {

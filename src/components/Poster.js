@@ -5,9 +5,11 @@ export default function Poster() {
             <div className="Poster-row1">
                 <h1>Cars for Sale-Search Near You</h1>
                 <ul>
-                    <li>Find Cars by Budget |</li>
-                    <li>Shop Vehicles by Style |</li>
-                    <li>Advanved Search</li>
+                    <a href="#"><li>Find Cars by Budget </li></a>
+                    <li>|</li>
+                    <a href="#"><li>Shop Vehicles by Style </li></a>
+                    <li>|</li>
+                    <a href="#"><li>Advanved Search</li></a>
                 </ul>
             </div>
             <div className="Poster-row2">
@@ -20,12 +22,14 @@ export default function Poster() {
                         <option value="someOption">Some option</option>
                         <option value="otherOption">Other option</option>
                     </select>
-                    <input name="zipCode" placeholder="ZIP Code"/>
-                    <input type="submit" value="Search"/>
+                    <input className="ZipCode" name="zipCode" placeholder="ZIP Code"/>
+                    <input className="Searchbar"type="submit" value="Search"/>
 
                 </form>
 
             </div>
+
+            <h1 className="Slogan">Love is now electric</h1>
 
         </div>
     )
