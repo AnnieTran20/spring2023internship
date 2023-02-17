@@ -10,6 +10,9 @@ import Title1 from './components/Title1';
 import Panel1 from './components/Panel1';
 import Container1 from './components/Container1';
 import Container2 from './components/Container2';
+import Container3 from './components/Container3';
+import MoreInfo from './components/MoreInfo';
+import Footer from './components/Footer';
 
 
 // import 'bootstrap/dist/css/bootstrap.min.css';
@@ -69,6 +72,9 @@ function App() {
     <Panel1/>
     <Container1/>
     <Container2/>
+    <Container3/>
+    <MoreInfo/>
+    <Footer/>
 
 
     </div>
