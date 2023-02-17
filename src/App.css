@@ -30,6 +30,11 @@
   color: #61dafb;
 }
 
+a {
+  text-decoration: none;
+  color: black;
+}
+
 /* Nav Bar */
 .sign-in {
   margin-left: 3em;
@@ -115,4 +120,55 @@ nav a h3 {
   to {
     transform: rotate(360deg);
   }
+}
+
+/* AnotherSearch */
+.AnotherSearch {
+  margin-left: -48em;
+}
+
+/*Title 1*/
+.Title1 {
+  margin-left: -54em;
+  margin-top: 3em;
+}
+/*Carousel*/
+.MyCarousel {
+  margin-top: 3em;
+  margin-left: 5%;
+}
+
+/* Panel 1 */
+.Panel1 {
+  background-image: url("./images/search-by-budget.webp");
+  background-size: cover;  
+  /* background-repeat:repeat-y;
+  margin-left: 2em;
+  width: 19em;
+  display: block;
+  min-width: 100px */
+  height: 400px;
+  color: black;
+}
+
+/*Container1*/
+.Container1 {
+  display: block;
+  margin-top: 3em;
+
+}
+
+.Container1-CarList {
+  list-style-type: none;
+  display: flex;
+  margin-left: 20%;
+}
+
+/* Container2 */
+.Container2 li {
+  display: flex;
+}
+
+.Container2 {
+  background-color: rgb(226, 224, 224);
 }
